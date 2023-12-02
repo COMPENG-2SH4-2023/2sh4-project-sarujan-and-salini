@@ -10,7 +10,7 @@ class objPos
 
         objPos();
         objPos(objPos &o); // copy constructor
-        objPos(int xPos, int yPos, char sym);
+        objPos(int xPos, int yPos, char sym); //specialized
 
         void setObjPos(objPos o);        
         void setObjPos(int xPos, int yPos, char sym);  
